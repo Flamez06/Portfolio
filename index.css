@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Inria Sans;
+    color: white;
+    
+}
+body{
+    background-image:url(/wp6374926-minimal-landscape-wallpapers.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #231b30;
+    height: 1800px;
+    overflow-x: hidden;
+}
+.glass-box{
+    background: rgba(224, 190, 145, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2x);
+    border: 1px solid rgba(215, 164, 99, 0.41);
+}
+#intro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    left: 150px;
+    top: 140px;
+    padding: 30px 50px 30px 50px;
+}
+.i-text{
+    font-size: 30px;
+    font-weight: 700;
+}
+.i-b{
+    background: none;
+    border: none;
+    width: 40px;
+    padding-right: 65px;
+    cursor: pointer;
+}
+.about-box{
+    width: 1200px;
+    position: relative;
+    top: 500px;
+    left: 150px;
+}
+.ab{
+    height: 225px;
+    width: 225px;
+    border-radius: 30px;
+    background-color: #4c2051;
+    padding: 30px;
+}
+.line{
+    border: solid white 2px;
+    margin: 7px 0px 7px 0px;
+}
+.a-text{
+    font-size: 23px;
+}
+#pt3{
+    position: relative;
+    top: 550px;
+    background-image: url(/layered-peaks-haikei\ \(1\).png);
+    background-size: cover;
+    width: 100vw;
+    height: 150vh;
+    background-repeat: no-repeat;
+}
+.container{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    column-gap: 100px;
+}
+.nb{
+    height: 190px;
+    width: 500px;
+    border-radius: 30px;
+    background-color: #76245c;
+    padding: 30px;
+    margin-bottom: 35px;
+    position: relative;
+}
+.vbutton{
+    background: none;
+    border:none;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+    position:absolute;
+    bottom: 30px;
+}
